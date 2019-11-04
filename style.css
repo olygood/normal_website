@@ -5,6 +5,16 @@
     height: 910px;
     
 }
+#contenu{
+    width: 1790px;
+    height: 905px;
+    border:2px solid green;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #header{
     border:2px solid yellow;
     width: 900px;
