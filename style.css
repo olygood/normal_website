@@ -1,0 +1,48 @@
+
+#container{
+    border:2px solid red;
+    width: 1800px;
+    height: 910px;
+    
+}
+#header{
+    border:2px solid yellow;
+    width: 900px;
+    height: 150px;
+
+}
+#corp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    border:2px solid mediumspringgreen;
+    width: 900px;
+    height: 300px;
+  
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    border:2px solid gray;
+    width: 900px;
+    height: 300px;
+
+}
+.vignette_c{
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    margin-right: 10px;
+}
+.vignette_f{
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    margin-right: 10px;
+
+}
