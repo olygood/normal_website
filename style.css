@@ -25,7 +25,7 @@
 #corp{
     display: flex;
     flex-direction: column;
-    /*je suis ici colum et row sur tout le corp */
+    /*je suis ici colum et row sur tout le corp  test avec gitstatus */ 
     
     border:2px solid mediumspringgreen;
     width: 900px;
