@@ -67,3 +67,8 @@
     margin-right: 10px;
 
 }
+p{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
