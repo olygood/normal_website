@@ -20,28 +20,23 @@
     width: 900px;
     height: 150px;
 
+
 }
 #corp{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-direction: column;
+    /*je suis ici colum et row sur tout le corp */
     
     border:2px solid mediumspringgreen;
     width: 900px;
     height: 300px;
   
 }
-#footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+.corp_title{
 
-    border:2px solid gray;
-    width: 900px;
-    height: 300px;
-
+}
+.parent_vignette_c{
+    border: 1px solid tomato;
 }
 .vignette_c{
     border: 1px solid black;
@@ -51,6 +46,19 @@
    
 
     
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border:2px solid gray;
+    width: 900px;
+    height: 300px;
+
 }
 .vignette_f{
     border: 1px solid black;
