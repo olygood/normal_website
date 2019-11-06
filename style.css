@@ -226,6 +226,33 @@ p{
     margin: 5px;
 }
 
+/*--------------------------------- cv.html------------------*/
+#cv_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1900px;
+    height: auto;
+    border: 2px solid red;
+}
+.cv_contenu{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    border: 2px solid green;
+  }
+.cv_pdf_color{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.cv_pdf_white{
+    border: 2px solid black;
+    margin-top: 100px;
+}
 
-  
   
